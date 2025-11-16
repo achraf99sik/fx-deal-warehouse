@@ -118,18 +118,14 @@ public class MainApplication {
         DealService dealService = new DealService(dealRepository);
 
         try {
-            // Example 1: Valid new deal
             Deal deal1 = new Deal(UUID.randomUUID(), "USD", "EUR", LocalDateTime.now(), new BigDecimal("100.50"));
             dealService.processDeal(deal1);
 
-            // Example 2: Another valid new deal
             Deal deal2 = new Deal(UUID.randomUUID(), "GBP", "JPY", LocalDateTime.now(), new BigDecimal("15000.75"));
             dealService.processDeal(deal2);
 
-            // Example 3: Duplicate deal (should be skipped)
             dealService.processDeal(deal1);
 
-            // Example 4: Invalid deal (should be logged as validation error)
             Deal invalidDeal = new Deal(UUID.randomUUID(), "US", "EUR", LocalDateTime.now(), new BigDecimal("50.00"));
             dealService.processDeal(invalidDeal);
 
