@@ -27,7 +27,7 @@ public class DealRepository {
     public void saveDeal(Deal deal) throws SQLException {
         String sql = "INSERT INTO fx_deals (deal_id, from_currency_iso_code, to_currency_iso_code, deal_timestamp, deal_amount) VALUES (?, ?, ?, ?, ?)";
         try (Connection connection = dataSource.getConnection();
-             PreparedStatement statement = connection.prepareStatement(sql)) {
+            PreparedStatement statement = connection.prepareStatement(sql)) {
             statement.setObject(1, deal.getDealId());
             statement.setString(2, deal.getFromCurrencyIsoCode());
             statement.setString(3, deal.getToCurrencyIsoCode());

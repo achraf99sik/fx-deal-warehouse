@@ -19,7 +19,6 @@ public class Deal {
         this.dealAmount = dealAmount;
     }
 
-    // Getters
     public UUID getDealId() {
         return dealId;
     }
@@ -40,7 +39,6 @@ public class Deal {
         return dealAmount;
     }
 
-    // Setters (if needed, but for immutable data transfer objects, often omitted or used with builders)
     public void setDealId(UUID dealId) {
         this.dealId = dealId;
     }

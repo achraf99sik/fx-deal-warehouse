@@ -59,14 +59,14 @@ class DealServiceTest {
         dealService.processDeal(duplicateDeal);
 
         verify(dealRepository, times(1)).dealExists(duplicateDeal.getDealId());
-        verify(dealRepository, never()).saveDeal(any(Deal.class)); // Should not save duplicate
+        verify(dealRepository, never()).saveDeal(any(Deal.class));
     }
 
     @Test
     void testProcessInvalidDeal() throws SQLException {
         Deal invalidDeal = new Deal(
             UUID.randomUUID(),
-            "US", // Invalid currency code
+            "US",
             "EUR",
             LocalDateTime.now(),
             new BigDecimal("100.00")
