@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.progresssoft.DealServiceTest" time="0.603" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Achraf\Desktop\progressSoft\fx-deal-warehouse\target\test-classes;C:\Users\Achraf\Desktop\progressSoft\fx-deal-warehouse\target\classes;C:\Users\Achraf\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\Achraf\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Achraf\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\Achraf\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Achraf\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;C:\Users\Achraf\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;C:\Users\Achraf\.m2\repository\org\postgresql\postgresql\42.3.1\postgresql-42.3.1.jar;C:\Users\Achraf\.m2\repository\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar;C:\Users\Achraf\.m2\repository\com\zaxxer\HikariCP\4.0.3\HikariCP-4.0.3.jar;C:\Users\Achraf\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\Achraf\.m2\repository\ch\qos\logback\logback-classic\1.2.6\logback-classic-1.2.6.jar;C:\Users\Achraf\.m2\repository\ch\qos\logback\logback-core\1.2.6\logback-core-1.2.6.jar;C:\Users\Achraf\.m2\repository\org\mockito\mockito-core\3.12.4\mockito-core-3.12.4.jar;C:\Users\Achraf\.m2\repository\net\bytebuddy\byte-buddy\1.11.13\byte-buddy-1.11.13.jar;C:\Users\Achraf\.m2\repository\net\bytebuddy\byte-buddy-agent\1.11.13\byte-buddy-agent-1.11.13.jar;C:\Users\Achraf\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\Achraf\.m2\repository\org\mockito\mockito-junit-jupiter\3.12.4\mockito-junit-jupiter-3.12.4.jar;"/>
+    <property name="java.vm.vendor" value="OpenLogic"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openlogic.com/"/>
+    <property name="user.timezone" value="Africa/Casablanca"/>
+    <property name="user.country.format" value="MA"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\OpenLogic\jdk-17.0.16.8-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\Achraf\AppData\Local\Temp\surefire10392795053540921784\surefirebooter17359957491460796703.jar C:\Users\Achraf\AppData\Local\Temp\surefire10392795053540921784 2025-11-14T17-13-42_647-jvmRun1 surefire16914203624508727281tmp surefire_016822768426499268048tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Achraf\Desktop\progressSoft\fx-deal-warehouse\target\test-classes;C:\Users\Achraf\Desktop\progressSoft\fx-deal-warehouse\target\classes;C:\Users\Achraf\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\Achraf\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Achraf\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\Achraf\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Achraf\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;C:\Users\Achraf\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;C:\Users\Achraf\.m2\repository\org\postgresql\postgresql\42.3.1\postgresql-42.3.1.jar;C:\Users\Achraf\.m2\repository\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar;C:\Users\Achraf\.m2\repository\com\zaxxer\HikariCP\4.0.3\HikariCP-4.0.3.jar;C:\Users\Achraf\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\Achraf\.m2\repository\ch\qos\logback\logback-classic\1.2.6\logback-classic-1.2.6.jar;C:\Users\Achraf\.m2\repository\ch\qos\logback\logback-core\1.2.6\logback-core-1.2.6.jar;C:\Users\Achraf\.m2\repository\org\mockito\mockito-core\3.12.4\mockito-core-3.12.4.jar;C:\Users\Achraf\.m2\repository\net\bytebuddy\byte-buddy\1.11.13\byte-buddy-1.11.13.jar;C:\Users\Achraf\.m2\repository\net\bytebuddy\byte-buddy-agent\1.11.13\byte-buddy-agent-1.11.13.jar;C:\Users\Achraf\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\Achraf\.m2\repository\org\mockito\mockito-junit-jupiter\3.12.4\mockito-junit-jupiter-3.12.4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Achraf"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-07-15"/>
+    <property name="java.home" value="C:\Program Files\OpenLogic\jdk-17.0.16.8-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Achraf\Desktop\progressSoft\fx-deal-warehouse"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Achraf\AppData\Local\Temp\surefire10392795053540921784\surefirebooter17359957491460796703.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.16+8-adhoc..jdk17u"/>
+    <property name="user.name" value="Achraf"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="OpenLogic-OpenJDK"/>
+    <property name="localRepository" value="C:\Users\Achraf\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://techsupport.roguewave.com/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Achraf\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.16"/>
+    <property name="user.dir" value="C:\Users\Achraf\Desktop\progressSoft\fx-deal-warehouse"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.language.format" value="ar"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\OpenLogic\jdk-17.0.16.8-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\OpenLogic\jdk-17.0.16.8-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\composer;C:\Program Files\Go\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Bitvise SSH Client;C:\ffmpeg;C:\Program Files\dotnet\;C:\Program Files\Neovim\bin;C:\Program Files\nodejs\;C:\Users\Achraf\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Achraf\AppData\Local\Programs\Python\Python311\;C:\Ruby27-x64\bin;C:\Users\Achraf\AppData\Local\Microsoft\WindowsApps;C:\Users\Achraf\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Achraf\AppData\Local\Microsoft\WinGet\Packages\PHP.PHP.8.4_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\Achraf\AppData\Roaming\Composer\vendor\bin;C:\Program Files\7-Zip;C:\Program Files\PostgreSQL\17\bin;C:\Users\Achraf\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Program Files (x86)\Aspell\bin;C:\Users\Achraf\AppData\Local\Microsoft\WinGet\Packages\orhun.git-cliff_Microsoft.Winget.Source_8wekyb3d8bbwe\git-cliff-2.8.0;C:\Users\Achraf\go\bin;C:\Users\Achraf\AppData\Local\Microsoft\WinGet\Packages\nektos.act_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\Achraf\.dotnet\tools;C:\Users\Achraf\AppData\Local\Microsoft\WinGet\Packages\BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\mingw64\bin;C:\Users\Achraf\AppData\Roaming\npm;C:\Users\Achraf\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files (x86)\eSpeak\command_line;C:\Users\Achraf\AppData\Local\Programs\Windsurf\bin;C:\ffmpeg;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Users\Achraf\Scripts;C:\Program Files\JetBrains\IntelliJ IDEA 2024.1\bin;C:\apache-maven-3.9.11\bin;C:\Users\Achraf\AppData\Local\JetBrains\Toolbox\scripts;C:\Program Files (x86)\GnuWin32\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="OpenLogic"/>
+    <property name="java.vm.version" value="17.0.16+8-adhoc..jdk17u"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testProcessValidNewDeal" classname="com.progresssoft.DealServiceTest" time="0.573"/>
+  <testcase name="testProcessDuplicateDeal" classname="com.progresssoft.DealServiceTest" time="0.002"/>
+  <testcase name="testProcessDealWithRepositorySaveError" classname="com.progresssoft.DealServiceTest" time="0.005"/>
+  <testcase name="testProcessDealWithRepositoryExistsError" classname="com.progresssoft.DealServiceTest" time="0.002"/>
+  <testcase name="testProcessInvalidDeal" classname="com.progresssoft.DealServiceTest" time="0.002"/>
+</testsuite>

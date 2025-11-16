@@ -1,0 +1,5 @@
+com\progresssoft\DealService.class
+com\progresssoft\MainApplication.class
+com\progresssoft\DealRepository.class
+com\progresssoft\DealValidator.class
+com\progresssoft\Deal.class
